@@ -3,12 +3,14 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 
 	model "github.com/AM07/backend/models"
+	"github.com/gorilla/mux"
 )
 
-var products []*model.Product
+var products []model.Product
 
 func homePage(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Home page")
@@ -18,18 +20,19 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 
 func aboutPage(w http.ResponseWriter, r *http.Request) {
 	// fmt.Fprintf(w, "About page")
-	a := products{Name: "laptop", User: "AMS", Site: "www.amazon.com", Price: "Rs.98000"}
+	a := model.Product{Name: "laptop", User: "AMS", Site: "www.amazon.com", Price: 98000}
+	products = append(products, a)
 	fmt.Fprintf(w, "Details of the server:\t")
 	json.NewEncoder(w).Encode(a)
 }
 
 func handlefunc() {
-	http.HandleFunc("/", homePage)
-	http.HandleFunc("/about", aboutPage)
-	// log.Fatal(http.ListenAndServe(":8081", nil))
+	r := mux.NewRouter()
+	r.HandleFunc("/", homePage)
+	r.HandleFunc("/about", aboutPage)
+	log.Fatal(http.ListenAndServe(":8081", nil))
 }
 
 func main() {
 	handlefunc()
-	http.ListenAndServe(":8081", nil)
 }
