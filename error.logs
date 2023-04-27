@@ -1,0 +1,189 @@
+2023/04/27 23:24:49 Missing category query parameter
+2023/04/27 23:24:49 http: panic serving [::1]:64679: Missing category query parameter
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc00008c040})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc00006b898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc0000b4000}, 0xc0000881e0?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc000096200?, {0xb423a8?, 0xc0000b4000?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc0000b4000}, 0xc000096000)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000088030?}, {0xb423a8, 0xc0000b4000}, 0xc000096000)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000014a0, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db
+2023/04/27 23:24:50 Missing category query parameter
+2023/04/27 23:24:50 http: panic serving [::1]:64680: Missing category query parameter
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc00008c080})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc000057898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc0000b40e0}, 0xc000088390?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc000096500?, {0xb423a8?, 0xc0000b40e0?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc0000b40e0}, 0xc00019c000)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000184090?}, {0xb423a8, 0xc0000b40e0}, 0xc00019c000)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000188000, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db
+2023/04/27 23:24:50 Missing category query parameter
+2023/04/27 23:24:50 http: panic serving [::1]:64681: Missing category query parameter
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc000196040})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc000057898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc0001b0000}, 0xc0001842d0?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc00019c300?, {0xb423a8?, 0xc0001b0000?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc0001b0000}, 0xc00019c100)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000184120?}, {0xb423a8, 0xc0001b0000}, 0xc00019c100)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000f2000, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db
+2023/04/27 23:25:07 Missing category query parameter
+2023/04/27 23:25:07 http: panic serving [::1]:64682: Missing category query parameter
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc000052e80})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc000059898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc000158000}, 0xc000101830?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc000154100?, {0xb423a8?, 0xc000158000?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc000158000}, 0xc000096700)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc0000884e0?}, {0xb423a8, 0xc000158000}, 0xc000096700)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0001880a0, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db
+2023/04/27 23:25:07 Missing category query parameter
+2023/04/27 23:25:07 http: panic serving [::1]:64697: Missing category query parameter
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc000052ec0})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc000057898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc0001580e0}, 0xc0001019e0?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc000154300?, {0xb423a8?, 0xc0001580e0?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc0001580e0}, 0xc000154000)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc0001016b0?}, {0xb423a8, 0xc0001580e0}, 0xc000154000)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000188140, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db
+2023/04/27 23:25:07 Missing category query parameter
+2023/04/27 23:25:07 http: panic serving [::1]:64700: Missing category query parameter
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc00008c0e0})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc000161898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc0000b41c0}, 0xc000088690?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc000096900?, {0xb423a8?, 0xc0000b41c0?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc0000b41c0}, 0xc000096800)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000088540?}, {0xb423a8, 0xc0000b41c0}, 0xc000096800)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc000001540, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db
+2023/04/27 23:25:08 Missing category query parameter
+2023/04/27 23:25:08 http: panic serving [::1]:64701: Missing category query parameter
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc0001960a0})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc000161898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc0001b00e0}, 0xc0001845a0?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc00019c800?, {0xb423a8?, 0xc0001b00e0?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc0001b00e0}, 0xc00019c500)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc0001843c0?}, {0xb423a8, 0xc0001b00e0}, 0xc00019c500)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000f20a0, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db
+2023/04/27 23:25:13 Missing category query parameter
+2023/04/27 23:25:13 http: panic serving [::1]:64702: Missing category query parameter
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc0001960e0})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc000057898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc0001b01c0}, 0xc000184750?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc00019cb00?, {0xb423a8?, 0xc0001b01c0?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc0001b01c0}, 0xc00019c600)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc000184420?}, {0xb423a8, 0xc0001b01c0}, 0xc00019c600)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000015e0, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db
+2023/04/27 23:25:13 Missing category query parameter
+2023/04/27 23:25:13 http: panic serving [::1]:64703: Missing category query parameter
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	E:/Softwares/Go/src/net/http/server.go:1850 +0xbf
+panic({0xa7b000, 0xc000052f00})
+	E:/Softwares/Go/src/runtime/panic.go:890 +0x262
+log.Panic({0xc00015d898?, 0x2030000?, 0xac60ec?})
+	E:/Softwares/Go/src/log/log.go:388 +0x65
+github.com/AM07/backend/handlers.GetOneProduct({0xb423a8?, 0xc0001581c0}, 0xc000101c20?)
+	D:/Professional files/Coding/GoLang/Backend/handlers/getOneProduct.go:34 +0xeb
+net/http.HandlerFunc.ServeHTTP(0xc000154600?, {0xb423a8?, 0xc0001581c0?}, 0x800?)
+	E:/Softwares/Go/src/net/http/server.go:2109 +0x2f
+github.com/gorilla/mux.(*Router).ServeHTTP(0xc000140000, {0xb423a8, 0xc0001581c0}, 0xc00019cd00)
+	C:/Users/AMS/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210 +0x1cf
+net/http.serverHandler.ServeHTTP({0xc0001847e0?}, {0xb423a8, 0xc0001581c0}, 0xc00019cd00)
+	E:/Softwares/Go/src/net/http/server.go:2947 +0x30c
+net/http.(*conn).serve(0xc0000f2140, {0xb42820, 0xc0001015c0})
+	E:/Softwares/Go/src/net/http/server.go:1991 +0x607
+created by net/http.(*Server).Serve
+	E:/Softwares/Go/src/net/http/server.go:3102 +0x4db

@@ -13,13 +13,6 @@ import (
 
 func init() {
 	fmt.Println("Site available at http://localhost:8081...")
-	F, err := os.OpenFile("error.logs", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
-	if err != nil {
-		log.Fatalf("error opening file: %v", err)
-	}
-	defer F.Close()
-
-	log.SetOutput(F)
 }
 
 func router() {
@@ -33,5 +26,12 @@ func router() {
 
 func main() {
 	helpers.AddEntry()
+	F, err := os.OpenFile("error.logs", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
+		log.Fatalf("error opening file: %v", err)
+	}
+	defer F.Close()
+
+	log.SetOutput(F)
 	router()
 }
