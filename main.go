@@ -10,7 +10,7 @@ import (
 )
 
 func init() {
-	router()
+	fmt.Println("Site available at http://localhost:8081...")
 }
 
 func router() {
@@ -21,5 +21,5 @@ func router() {
 }
 
 func main() {
-	fmt.Println("Site running at http://localhost:8081...")
+	router()
 }
