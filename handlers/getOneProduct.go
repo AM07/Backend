@@ -32,5 +32,6 @@ func GetOneProduct(w http.ResponseWriter, r *http.Request) {
 		return
 	} else {
 		log.Panic("Missing category query parameter")
+		return
 	}
 }
