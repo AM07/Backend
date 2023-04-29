@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/AM07/backend/helpers"
+	model "github.com/AM07/backend/models"
 )
 
 func GetAllProducts(w http.ResponseWriter, r *http.Request) {
-	json.NewEncoder(w).Encode(helpers.Products)
+	json.NewEncoder(w).Encode(model.Products)
 }

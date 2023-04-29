@@ -21,7 +21,7 @@ func router() {
 	r.HandleFunc("/about", handlers.AboutPage).Methods("GET")
 	r.HandleFunc("/GetAllProducts", handlers.GetAllProducts).Methods("GET")
 	r.HandleFunc("/GetOneProduct", handlers.GetOneProduct).Methods("GET")
-	log.Fatal(http.ListenAndServe(":8081", r))
+	log.Fatal(http.ListenAndServe("localhost:8081", r))
 }
 
 func main() {
